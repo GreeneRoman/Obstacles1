@@ -10,12 +10,12 @@ public class Mover : MonoBehaviour
   //  [SerializeField]float zValue = 0;
         [SerializeField] float moveSpeed = 10f;
 
-    // Start is called before the first frame update
+   
     void Start()
     {
       PrintInstructions();
     }
-    // Update is called once per frame
+    
     void Update()
     {
         MovePlayer();
