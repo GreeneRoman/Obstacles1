@@ -9,7 +9,7 @@ public class Spinner : MonoBehaviour
     [SerializeField]  float zAngle=0;
     
 
-    // Update is called once per frame
+    
     void Update()
     {
       transform.Rotate(xAngle,yAngle,zAngle);  
